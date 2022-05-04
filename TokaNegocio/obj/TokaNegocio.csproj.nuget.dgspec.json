@@ -1,0 +1,407 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ProyectoTokaPrueba\\TokaNegocio\\TokaNegocio.csproj": {}
+  },
+  "projects": {
+    "D:\\ProyectoTokaPrueba\\TokaDatos\\TokaDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoTokaPrueba\\TokaDatos\\TokaDatos.csproj",
+        "projectName": "TokaDatos",
+        "projectPath": "D:\\ProyectoTokaPrueba\\TokaDatos\\TokaDatos.csproj",
+        "packagesPath": "C:\\Users\\CesarAlcantara\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoTokaPrueba\\TokaDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CesarAlcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj",
+        "projectName": "TokaDTOS",
+        "projectPath": "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj",
+        "packagesPath": "C:\\Users\\CesarAlcantara\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoTokaPrueba\\TokaDTOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CesarAlcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj",
+        "projectName": "TokaEntidad",
+        "projectPath": "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj",
+        "packagesPath": "C:\\Users\\CesarAlcantara\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoTokaPrueba\\TokaEntidad\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CesarAlcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectoTokaPrueba\\TokaInfrestructura\\TokaInfrestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoTokaPrueba\\TokaInfrestructura\\TokaInfrestructura.csproj",
+        "projectName": "TokaInfrestructura",
+        "projectPath": "D:\\ProyectoTokaPrueba\\TokaInfrestructura\\TokaInfrestructura.csproj",
+        "packagesPath": "C:\\Users\\CesarAlcantara\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoTokaPrueba\\TokaInfrestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CesarAlcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj"
+              },
+              "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectoTokaPrueba\\TokaNegocio\\TokaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoTokaPrueba\\TokaNegocio\\TokaNegocio.csproj",
+        "projectName": "TokaNegocio",
+        "projectPath": "D:\\ProyectoTokaPrueba\\TokaNegocio\\TokaNegocio.csproj",
+        "packagesPath": "C:\\Users\\CesarAlcantara\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoTokaPrueba\\TokaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CesarAlcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj"
+              },
+              "D:\\ProyectoTokaPrueba\\TokaRepositorio\\TokaRepositorio.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaRepositorio\\TokaRepositorio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectoTokaPrueba\\TokaRepositorio\\TokaRepositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoTokaPrueba\\TokaRepositorio\\TokaRepositorio.csproj",
+        "projectName": "TokaRepositorio",
+        "projectPath": "D:\\ProyectoTokaPrueba\\TokaRepositorio\\TokaRepositorio.csproj",
+        "packagesPath": "C:\\Users\\CesarAlcantara\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoTokaPrueba\\TokaRepositorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CesarAlcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\ProyectoTokaPrueba\\TokaDatos\\TokaDatos.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaDatos\\TokaDatos.csproj"
+              },
+              "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaDTOS\\TokaDTOS.csproj"
+              },
+              "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaEntidad\\TokaEntidad.csproj"
+              },
+              "D:\\ProyectoTokaPrueba\\TokaInfrestructura\\TokaInfrestructura.csproj": {
+                "projectPath": "D:\\ProyectoTokaPrueba\\TokaInfrestructura\\TokaInfrestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

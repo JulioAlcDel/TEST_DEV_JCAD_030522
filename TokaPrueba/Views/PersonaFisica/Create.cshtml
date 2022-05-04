@@ -1,0 +1,109 @@
+﻿@model PersonaFisicaViewModel
+@{
+    ViewData["Title"] = "Registro";
+    var mensagge = TempData["UserMessage"];
+    var tipo = TempData["Tipo"];
+}
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Create" id="formCreate">
+
+
+            <div class="mb-3">
+                <label asp-for="Nombre" class="form-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ApellidoPaterno" class="form-label"></label>
+                <input asp-for="ApellidoPaterno" class="form-control" />
+                <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ApellidoMaterno" class="form-label"></label>
+                <input asp-for="ApellidoMaterno" class="form-control" />
+                <span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="FechaNacimiento" class="form-label"></label>
+                <input type="text" asp-for="FechaNacimiento" asp-format="{0:dd/MM/yyyy}" min="@DateTime.Now.ToString("dd/MM/yyyy")" class="form-control datepicker" />
+
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="RFC" class="form-label"></label>
+                <input asp-for="RFC" onkeyup="mayusculas(this);" onfocus="obtenerRFC()" class="form-control" />
+                <span asp-validation-for="RFC" class="text-danger"></span>
+            </div>
+            <button class="btn-success btn">Guardar</button>
+            <a class="btn btn-info" asp-action="Index">Regresar</a>
+        </form>
+
+    </div>
+
+</div>
+<script>
+    $('.datepicker').datepicker({
+        changeMonth: true,
+        changeYear: true,
+        format: "dd/mm/yyyy",
+        language: "tr"
+    });
+</script>
+@if (mensagge is not null)
+{
+<script>
+    $(document).ready(function () {
+            var tipo = "@TempData["Tipo"]";
+            var menssage = "@TempData["UserMessage"]";
+        if (tipo != 'Error') {
+           
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: menssage,
+                showConfirmButton: false,
+                timer: 1500
+            })
+        } else {
+            Swal.fire({
+                title: menssage,
+                type: 'error',
+                confirmButtonText: 'Cool'
+            })
+        }
+    })
+
+</script>
+
+}
+<script>
+    function obtenerRFC() {
+       
+        if ($("#ApellidoPaterno").val() != '' && $("#ApellidoMaterno").val() != "" && $("#Nombre").val() != "" && $("#FechaNacimiento").val() !== '') {
+            var obj = {}
+            obj.Fecha = $("#FechaNacimiento").val()
+            obj.ApellidoPaterno = $("#ApellidoPaterno").val()
+            obj.ApellidoMaterno = $("#ApellidoMaterno").val()
+            obj.Nombre = $("#Nombre").val()
+            obj.FechaNacimiento = $("#FechaNacimiento").val()
+
+             $.ajax({
+            url: '@Url.Action("CalculoRFC", "PersonaFisica")',
+            type: "POST",
+            data: obj,
+            dataType: 'json',
+            success: function (data) {
+                $("#RFC").val(data.value);
+               
+            }
+        })
+
+        }
+    }
+</script>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

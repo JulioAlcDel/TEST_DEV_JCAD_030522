@@ -1,0 +1,11 @@
+D:\TokaPrueba\TokaDTOS\bin\Debug\net5.0\TokaDTOS.deps.json
+D:\TokaPrueba\TokaDTOS\bin\Debug\net5.0\TokaDTOS.dll
+D:\TokaPrueba\TokaDTOS\bin\Debug\net5.0\ref\TokaDTOS.dll
+D:\TokaPrueba\TokaDTOS\bin\Debug\net5.0\TokaDTOS.pdb
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\TokaDTOS.GeneratedMSBuildEditorConfig.editorconfig
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\TokaDTOS.AssemblyInfoInputs.cache
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\TokaDTOS.AssemblyInfo.cs
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\TokaDTOS.csproj.CoreCompileInputs.cache
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\TokaDTOS.dll
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\ref\TokaDTOS.dll
+D:\TokaPrueba\TokaDTOS\obj\Debug\net5.0\TokaDTOS.pdb

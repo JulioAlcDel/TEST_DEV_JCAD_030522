@@ -1,0 +1,17 @@
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaInfrestructura.deps.json
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaInfrestructura.dll
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\ref\TokaInfrestructura.dll
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaInfrestructura.pdb
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaDTOS.dll
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaEntidad.dll
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaDTOS.pdb
+D:\TokaPrueba\TokaInfrestructura\bin\Debug\net5.0\TokaEntidad.pdb
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.csproj.AssemblyReference.cache
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.AssemblyInfoInputs.cache
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.AssemblyInfo.cs
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.csproj.CoreCompileInputs.cache
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.csproj.CopyComplete
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.dll
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\ref\TokaInfrestructura.dll
+D:\TokaPrueba\TokaInfrestructura\obj\Debug\net5.0\TokaInfrestructura.pdb

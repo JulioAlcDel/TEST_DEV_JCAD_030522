@@ -1,0 +1,12 @@
+D:\TokaPrueba\TokaEntidad\bin\Debug\net5.0\TokaEntidad.deps.json
+D:\TokaPrueba\TokaEntidad\bin\Debug\net5.0\TokaEntidad.dll
+D:\TokaPrueba\TokaEntidad\bin\Debug\net5.0\ref\TokaEntidad.dll
+D:\TokaPrueba\TokaEntidad\bin\Debug\net5.0\TokaEntidad.pdb
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.csproj.AssemblyReference.cache
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.AssemblyInfoInputs.cache
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.AssemblyInfo.cs
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.csproj.CoreCompileInputs.cache
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.dll
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\ref\TokaEntidad.dll
+D:\TokaPrueba\TokaEntidad\obj\Debug\net5.0\TokaEntidad.pdb

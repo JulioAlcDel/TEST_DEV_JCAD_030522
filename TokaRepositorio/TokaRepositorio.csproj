@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TokaDatos\TokaDatos.csproj" />
+    <ProjectReference Include="..\TokaDTOS\TokaDTOS.csproj" />
+    <ProjectReference Include="..\TokaEntidad\TokaEntidad.csproj" />
+    <ProjectReference Include="..\TokaInfrestructura\TokaInfrestructura.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+</Project>

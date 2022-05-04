@@ -1,0 +1,12 @@
+D:\TokaPrueba\TokaServicio\bin\Debug\net5.0\TokaServicio.deps.json
+D:\TokaPrueba\TokaServicio\bin\Debug\net5.0\TokaServicio.dll
+D:\TokaPrueba\TokaServicio\bin\Debug\net5.0\ref\TokaServicio.dll
+D:\TokaPrueba\TokaServicio\bin\Debug\net5.0\TokaServicio.pdb
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.csproj.AssemblyReference.cache
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.GeneratedMSBuildEditorConfig.editorconfig
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.AssemblyInfoInputs.cache
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.AssemblyInfo.cs
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.csproj.CoreCompileInputs.cache
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.dll
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\ref\TokaServicio.dll
+D:\TokaPrueba\TokaServicio\obj\Debug\net5.0\TokaServicio.pdb
