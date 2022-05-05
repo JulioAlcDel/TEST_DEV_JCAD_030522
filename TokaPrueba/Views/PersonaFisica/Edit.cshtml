@@ -27,7 +27,7 @@
 
             <div class="mb-3">
                 <label asp-for="FechaNacimiento" class="form-label"></label>
-                <input type="text" class="form-control datepicker" asp-for="FechaNacimiento" />
+                <input type="text" class="form-control datepicker"  onfocus="obtenerRFC()" asp-for="FechaNacimiento" />
                 <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
             </div>
             <div class="mb-3">
